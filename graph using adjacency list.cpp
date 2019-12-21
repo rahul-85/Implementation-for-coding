@@ -30,7 +30,7 @@ node * getNewNode(int data) {
 }
 
 // generally use insert to front of the list in adjacency list
-// This helps to reduce time complexity as compared to insert at lastof the list.
+// This helps to reduce time complexity as compared to insert at last of the list.
 // which requires O(n) to traverse the list
 
 node * insertAtFront(node * head, int data) {
@@ -63,7 +63,7 @@ void dfs(int start) {
 		temp = temp->ptr;
 	}
 	
-	*/
+  */
 }
 
 int main() {
@@ -79,10 +79,10 @@ int main() {
     graph[y] = insertAtFront(graph[y], x);
     /*
         // if graph is directed, use the below code.
-		 // only the first line i.e., connect 'y' node to 'x'
-		 graph[x]=insertAtFront(graph[x],y);
+	// only the first line i.e., connect 'y' node to 'x'
+	graph[x]=insertAtFront(graph[x],y);
         
-        */
+    */
   }
 
   // if the graph is connected, we can start the dfs from any node.
@@ -92,7 +92,7 @@ int main() {
 	{
 		if(!visited[i]) dfs(i);
 	}
-	*/
+  */
   dfs(0); // here starting the dfs from 0th node
   return 0;
 }
