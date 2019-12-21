@@ -10,8 +10,8 @@
 // Adjacency list implementation
 #include<iostream>
 
-using namespace std;#
-define MAX 100 // put the maximum possible value of node (check from constraint of question)
+using namespace std;
+#define MAX 100 // put the maximum possible value of node (check from constraint of question)
 
 struct node {
   int data;
